@@ -1,0 +1,194 @@
+.tgh {
+    width:1297px;
+    margin:0 auto;
+    margin-bottom:10px;
+    color: #212121;
+    padding: 20px 0px;
+}
+
+.tgh th {
+    background-color: #212121;
+    color: white;
+} 
+
+.tgh th, td {
+    border: 2px solid #212121;
+} 
+
+.microwave {
+    width: 412px;
+    padding: 20px;
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-right:10px;
+    margin-left:10px;
+    display: inline-block;
+    background-color: #ececec;
+    /* background-color: #ffc276; */
+    /* color: white; */
+}
+
+.gambar-microwave {
+    height: 150px;
+    width: 350px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* float:left; */
+    transition: transform .2s;
+}
+
+.gambar-microwave img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.microwave .konten-microwave .gambar-microwave:hover img {
+    transform: scale(1.25);
+}
+
+.konten-microwave {
+    display: flex;
+    /* justify-content: space-between; */
+    /* float:left; */
+    /* width:100%; */
+}
+
+.konten-microwave div.judul-microwave {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.konten-microwave .isi-microwave {
+    font-size: 13px;
+    margin-right:20px;
+    width:100%;
+}
+
+.isi-microwave p {
+    margin-bottom: 0;
+}
+
+#id-brg {
+    font-size: 13px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.isi-microwave #nama-brg {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.isi-microwave #harga-brg {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* .btn {
+    color:white;
+    border:none;
+    background:#25d700;
+    width:90px;
+} */
+
+.About img {
+    width: 350px;
+    height: 450px;
+    margin-left: 20%;
+    margin-top: 15vh;
+    object-fit: cover;
+    /* border: 1px solid #212121; */
+    /* margin-left: 300px; */
+    /* margin-top: 100px; */
+}
+
+.About {
+    display: flex;
+    /* justify-content: space; */
+    flex-direction: row;
+}
+
+h1 {
+    color: #212121;
+    /* margin-left: 600px; */
+    /* padding-top: -50px; */
+}
+
+#bio {
+    margin-top: 35vh;
+    margin-left: -5%;
+    padding: 50px;
+    color: #212121;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: white;
+    height: 50vh;
+}
+
+#p-1 {
+    /* color: #212121; */
+    /* font-size: 16px; */
+    margin-bottom: 50px;
+}
+
+/* #p-2 {
+    color: #212121;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 30px;
+} */
+
+#p-3 {
+    color: #212121;
+    /* font-size: 48px; */
+    display: flex;
+    margin-bottom: 0px;
+}
+
+#p-3-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(255, 217, 0);
+}
+
+#p-4 {
+    color: #ffc267;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+#p-4-2 {
+    color: #212121;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+#p-5 {
+    width: 500px;
+    /* color: #212121; */
+    text-align: justify;
+    font-style: italic;
+}
+
+#about-me {
+    width: 30%;
+    color: #212121;
+    font-size: 13px;
+    margin-left: 45%;
+}
+
+#kotak {
+    width: 300px;
+    height: 450px;
+    background-color: #212121;
+    opacity: 0.2;
+    position: absolute;
+    z-index: -5;
+    margin-left: 965px;
+    margin-top: 100px;
+}
