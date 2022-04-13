@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Microwave from "./container/Microwave/Microwave";
 import Keranjang from "./container/Microwave/Keranjang";
-import macrowave_img from './Laptop.jpg';
+import microwave_img from './Laptop.jpg';
 // import samsung1 from './samsung1.png'
 import foto from './Foto.jpg'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -60,7 +60,7 @@ function Home() {
     <div className="carousel-microwave">
       {/* <img src={apple} id="img-bg" /> */}
       <div className="header">
-        <p className="header-t1 h-t-1">Welcome to GOLAPTOP</p>
+      <p className="header-t1 h-t-1">Welcome to GOLAPTOP</p>
 
         <div className="h-t-2">
           <p className="header-t2">We have 5000+ Review and our customers trust on our</p>
@@ -70,7 +70,7 @@ function Home() {
         <button className="btn btn-sm btn-header-1">Buy Now</button>
         <button className="btn btn-sm btn-header-2">Explore</button>
       </div>
-      <img id="img-microwave" src={macrowave_img} alt="gambar"/>
+      <img id="img-microwave" src={microwave_img} alt="gambar"/>
     </div> 
   );
 }
