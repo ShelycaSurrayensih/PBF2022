@@ -5,21 +5,21 @@
       "nama": "Acer Aspire 1 (One) ",
       "harga": 3500000,
       "gambar": "https://cdn-cms.pgimgs.com/static/2020/06/acer-aspire-1-2020-0012.jpg",
-      "stok": 2
+      "stok": 10
     },
     {
       "id": 2,
       "nama": "Dell Inspiron 11 3000",
       "harga": 4500000,
       "gambar": "https://cdn-cms.pgimgs.com/static/2020/06/inspiron-11-3000-2n1-2019.jpg",
-      "stok": 2
+      "stok": 8
     },
     {
       "id": 3,
       "nama": "ASUS X441BA",
       "harga": 3000000,
       "gambar": "https://cdn-cms.pgimgs.com/static/2020/06/3.4-ASUS-X441BA.png",
-      "stok": 2
+      "stok": 6
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "nama": "Lenovo IdeaPad Duet",
       "harga": 6300000,
       "gambar": "https://cdn-cms.pgimgs.com/static/2020/06/4.2-Lenovo-IdeaPad-Duet.png",
-      "stok": 2
+      "stok": 3
     },
     {
       "id": 6,
