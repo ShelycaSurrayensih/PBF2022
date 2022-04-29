@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Pelaksanaan Rapat Hasil Akhir Yudisium Semester Ganjil 2019/2020",
+      "body": "- Jumat (17/1/20) kemarin, Jurusan Teknologi Informasi Politeknik Negeri Malang (JTI Polinema)"
+    },
+    {
+      "userId": 1,
+      "id": 1647364166931,
+      "title": "Pelaksanaan UTS",
+      "body": "- Rabu (16/03/2022) kemarin, Jurusan Teknologi Informasi Politeknik Negeri Malang (JTI Polinema)"
+    },
+    {
+      "userId": 1,
+      "id": 1651201185151,
+      "title": "test",
+      "body": "-"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
