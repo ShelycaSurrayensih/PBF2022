@@ -15,6 +15,15 @@
       "hp": "081802023523",
       "angkatan": 2014,
       "status": "lulus"
+    },
+    {
+      "id": 1651204638265,
+      "NIM": "1365",
+      "nama": "she",
+      "alamat": "pamekasan",
+      "hp": "08796",
+      "angkatan": "2020",
+      "status": "Aktif"
     }
   ]
 }
