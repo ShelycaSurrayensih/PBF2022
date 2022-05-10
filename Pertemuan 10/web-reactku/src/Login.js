@@ -18,7 +18,16 @@ const Login = () => {
             setErrors(e.message);
           });
     };
-    
+    const auth = firebase.auth();
+    const googleProvider = new firebase.auth.GoogleAuthProvider()
+    const signInWithGoogle = () => {
+        auth.signInWithPopup(googleProvider).then((res) => {
+            console.log(res.user)
+            if (res.user) Auth.setLoggedIn(true);
+        }).catch(e => {
+            setErrors(e.message);
+        });
+    }
     return (
         <div>
             <h1>Login</h1>
@@ -30,7 +39,7 @@ const Login = () => {
                     type="email"
                     placeholder="email"
                 />
-                <input
+                 <input
                     onChange={e => setPassword(e.target.value)}
                     name="password"
                     value={password}
@@ -38,12 +47,12 @@ const Login = () => {
                     placeholder="password"
                 />
                 <hr />
-                <button class="googleBtn" type="button">
+                <button className="googleBtn" type="button" onClick={signInWithGoogle}>
                     <img
                         src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
                         alt="logo"
                     />
-                    Login with Google
+                    Login With Google
                 </button>
                 <button type="submit">Login</button>
                 <span> {error}</span>
@@ -51,4 +60,4 @@ const Login = () => {
         </div>
     );
 };
-export default Login; 
+export default Login;
