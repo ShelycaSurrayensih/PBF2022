@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+    font-family: sans-serif;
+}
+.top-item{
+    margin-top: 40px;
+    width: 450px;
+    height: auto;
+}
+.container{
+    width: 450px;
+    height: auto;
+    align-items: center;
+    /*meletakkan form ke tengah*/
+	margin: 20px auto;
+	padding: 20px 20px;
+    border: 2px solid lightgray;
+}
+.top-tittle{
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.text-tittle{
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.group {
+    display: flex;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+label { 
+    text-align: left;
+    display: flex;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    width:100px;
+    
+}
+input {
+    width: 40px;
+    padding: 5px;
+    font-size: 16px;
+    display:block;
+    float:left;        
+    margin-bottom:10px;
+}
+.login_form{
+	  padding: 20px 20px;
+}
+.login_form .font{
+    font-size: 18px;
+    margin: 5px 0;
+}
+.login_form input{
+    height: 40px;
+    width: 300px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+.login_form button{
+    height: 45px;
+    width: 410px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: rgb(74, 189, 74);
+    border: 1px solid rgb(90, 202, 90);
+    transition: .5s;
+}
+.login_form button:hover{
+	  background: green;
+}
+.item-bawah{
+    align-items: center;
+    font-size: 18px;
+}
+.ukuran-checkbox{
+    margin-top: 4px;
+    margin-left: 130px;
+    align-items: center;
+}
+.cancel{
+    height: 45px;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    background: rgb(219, 65, 65);
+    border: 1px solid rgb(219, 65, 65);
+    margin-top: 60px;
+    transition: .5s;
+}
+.cancel:hover{
+    background: red;
+}
+
+
+

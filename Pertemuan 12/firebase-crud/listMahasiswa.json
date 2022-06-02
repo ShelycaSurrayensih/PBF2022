@@ -1,0 +1,32 @@
+{
+  "mahasiswa": [
+    {
+      "NIM": 180823453,
+      "id": 1,
+      "nama": "Mahasiswa 1",
+      "alamat": "Jl. Soekarno Hatta No. 9 Malang",
+      "hp": "081802023249",
+      "angkatan": 2018,
+      "status": "aktif"
+    },
+    {
+      "NIM": "1941720061",
+      "id": 1651108210759,
+      "nama": "Nadia Layra Aziza",
+      "alamat": "Pasuruan",
+      "hp": "081259347608",
+      "angkatan": "2019",
+      "status": "Aktif"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
